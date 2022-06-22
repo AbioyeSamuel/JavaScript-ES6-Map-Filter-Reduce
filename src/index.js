@@ -1,6 +1,11 @@
 var numbers = [3, 56, 2, 48, 5];
 
 //Map -Create a new array by doing something with each item in an array.
+function Double(x) {
+  return x * 3;
+}
+const newNumbers = numbers.map(Double);
+console.log(newNumbers);
 
 //Filter - Create a new array by keeping the items that return true.
 
