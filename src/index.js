@@ -44,7 +44,17 @@
 // });
 // console.log(newNumber);
 
-var numbers = [3, 56, 2, 48, 5];
 //Find - find the first item that matches from an array.
+// function Find(number){
+//   return number > 10;
+// }
+// var FoundNumbers = numbers.find(Find);
+// console.log(FoundNumbers);
 
+var numbers = [3, 56, 2, 48, 5];
 //FindIndex - find the index of the first item that matches.
+function FindIndex(index) {
+  return index > 10;
+}
+var IndexFound = numbers.findIndex(FindIndex);
+console.log(IndexFound);
