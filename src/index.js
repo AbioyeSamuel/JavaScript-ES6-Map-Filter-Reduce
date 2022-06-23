@@ -59,13 +59,11 @@
 // var IndexFound = numbers.findIndex(FindIndex);
 // console.log(IndexFound);
 
+//An array of meanings and is truncated too 100 characters.
 import emojipedia from "./emojipedia";
-function Emoj(emoji){
+function Emoj(emoji) {
   return emoji.meaning.substring(0, 100);
 }
 var emojiMeaning = emojipedia.map(Emoj);
 
 console.log(emojiMeaning);
-
-
-
