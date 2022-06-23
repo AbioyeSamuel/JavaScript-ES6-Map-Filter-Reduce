@@ -31,20 +31,20 @@
 // });
 // console.log(newNumber);
 
-var numbers = [3, 56, 2, 48, 5];
-
 //Reduce - Accumulate a value by doing something to each item in an array.
-function Reduce(accumulator, currentNumber) {
-  return accumulator + currentNumber;
-}
-var newNumber = numbers.reduce(Reduce);
-console.log(newNumber);
+// function Reduce(accumulator, currentNumber) {
+//   return accumulator + currentNumber;
+// }
+// var newNumber = numbers.reduce(Reduce);
+// console.log(newNumber);
 
 // var newNumber = 0;
 // numbers.forEach(function (currentNumber) {
 //   newNumber += currentNumber;
 // });
 // console.log(newNumber);
+
+var numbers = [3, 56, 2, 48, 5];
 //Find - find the first item that matches from an array.
 
 //FindIndex - find the index of the first item that matches.
