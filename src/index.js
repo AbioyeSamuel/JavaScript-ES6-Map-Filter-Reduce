@@ -1,3 +1,4 @@
+var numbers = [3, 56, 2, 48, 5];
 //Map -Create a new array by doing something with each item in an array.
 // function Double(x) {
 //   return x * 3;
@@ -51,7 +52,6 @@
 // var FoundNumbers = numbers.find(Find);
 // console.log(FoundNumbers);
 
-var numbers = [3, 56, 2, 48, 5];
 //FindIndex - find the index of the first item that matches.
 function FindIndex(index) {
   return index > 10;
