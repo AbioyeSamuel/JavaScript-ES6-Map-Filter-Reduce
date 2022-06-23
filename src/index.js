@@ -61,10 +61,11 @@
 
 import emojipedia from "./emojipedia";
 function Emoj(emoji){
-  return emoji.meaning;
+  return emoji.meaning.substring(0, 100);
 }
-var emojiIndex = emojipedia.map(Emoj);
-console.log(emojiIndex);
+var emojiMeaning = emojipedia.map(Emoj);
+
+console.log(emojiMeaning);
 
 
 
