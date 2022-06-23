@@ -33,6 +33,8 @@
 
 var numbers = [3, 56, 2, 48, 5];
 
+var newNumber = 0;
+numbers.forEach(function (currentNumber) {});
 //Reduce - Accumulate a value by doing something to each item in an array.
 
 //Find - find the first item that matches from an array.
