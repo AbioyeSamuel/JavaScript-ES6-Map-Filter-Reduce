@@ -9,11 +9,17 @@ var numbers = [3, 56, 2, 48, 5];
 // });
 // console.log(newNumbers);
 
-var newNumbers = [];
-numbers.forEach(function (x) {
-  newNumbers.push(x * 2);
-});
-console.log(newNumbers);
+// 
+function Double(number){
+  return number * 3;
+}
+console.log(numbers.map(Double));
+
+
+
+
+
+
 
 //Filter - Create a new array by keeping the items that return true.
 
